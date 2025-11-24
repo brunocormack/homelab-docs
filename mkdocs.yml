@@ -1,0 +1,7 @@
+site_name: Bruno Homelab Docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Network: network.md
+  - ESXi: esxi.md
