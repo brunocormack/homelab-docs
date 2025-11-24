@@ -44,6 +44,6 @@ jobs:
     steps:
       - name: Deploy to app-prod-01
         env:
-          PROD_HOST: ubuntu@app-prod-01
+          PROD_HOST: bruno@app-prod-01
         run: |
           ssh -o StrictHostKeyChecking=no $PROD_HOST 'cd /opt/apps/homelab-docs && ./deploy.sh'
